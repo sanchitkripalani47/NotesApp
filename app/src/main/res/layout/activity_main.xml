@@ -10,7 +10,8 @@
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/note_item" />
+        tools:listitem="@layout/note_item"
+        android:background="#282828"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/button_add_note"
@@ -18,6 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
         android:src="@drawable/ic_add"
+        app:backgroundTint="#4287f5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.954"
